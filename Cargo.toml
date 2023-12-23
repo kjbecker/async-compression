@@ -53,7 +53,7 @@ ntest = "0.9"
 proptest = "1"
 proptest-derive = "0.4"
 rand = "0.8.5"
-tokio = { version = "1.24.2", default-features = false, features = ["io-util", "macros", "rt-multi-thread", "io-std"] }
+tokio = { git = "https://github.com/kjbecker/tokio.git", default-features = false, features = ["io-util", "macros", "rt-multi-thread", "io-std"] }
 tokio-util = { version = "0.7", default-features = false, features = ["io"] }
 
 [[test]]
